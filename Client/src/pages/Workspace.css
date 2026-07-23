@@ -1,0 +1,349 @@
+/* ========================================
+   WORKSPACE PAGE
+======================================== */
+
+.workspace-page {
+    min-height: 100vh;
+    padding: 30px;
+    background: #f5f7fb;
+}
+
+
+/* ========================================
+   HEADER
+======================================== */
+
+.workspace-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+.workspace-header h1 {
+    margin: 0;
+    font-size: 32px;
+    color: #222;
+}
+
+
+.workspace-header p {
+    margin-top: 8px;
+    color: #666;
+    font-size: 15px;
+}
+
+
+/* ========================================
+   CREATE WORKSPACE CARD
+======================================== */
+
+.workspace-create-card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 35px;
+
+    box-shadow:
+        0 3px 12px
+        rgba(0, 0, 0, 0.08);
+}
+
+
+.workspace-create-card h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+
+/* ========================================
+   FORM GROUP
+======================================== */
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+
+
+.form-group label {
+    margin-bottom: 7px;
+    font-weight: 600;
+    color: #333;
+}
+
+
+.form-group input,
+.form-group textarea {
+    padding: 12px;
+
+    border:
+        1px solid #ddd;
+
+    border-radius: 7px;
+
+    font-size: 15px;
+
+    outline: none;
+
+    transition:
+        border-color 0.2s;
+}
+
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #6c5ce7;
+}
+
+
+.form-group textarea {
+    min-height: 90px;
+    resize: vertical;
+}
+
+
+/* ========================================
+   CREATE BUTTON
+======================================== */
+
+.workspace-create-card button {
+    padding: 12px 22px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: #6c5ce7;
+
+    color: white;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s,
+        transform 0.2s;
+}
+
+
+.workspace-create-card button:hover {
+    background: #5848d6;
+
+    transform:
+        translateY(-1px);
+}
+
+
+/* ========================================
+   ERROR MESSAGE
+======================================== */
+
+.error-message {
+    padding: 10px 12px;
+
+    margin-bottom: 15px;
+
+    background: #ffe5e5;
+
+    color: #d00000;
+
+    border-radius: 7px;
+
+    font-size: 14px;
+}
+
+
+/* ========================================
+   WORKSPACE LIST
+======================================== */
+
+.workspace-list {
+    margin-top: 20px;
+}
+
+
+.workspace-list h2 {
+    margin-bottom: 20px;
+
+    color: #222;
+}
+
+
+/* ========================================
+   WORKSPACE GRID
+======================================== */
+
+.workspace-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            auto-fill,
+            minmax(
+                250px,
+                1fr
+            )
+        );
+
+    gap: 20px;
+}
+
+
+/* ========================================
+   WORKSPACE CARD
+======================================== */
+
+.workspace-card {
+    background: #ffffff;
+
+    padding: 22px;
+
+    border-radius: 12px;
+
+    box-shadow:
+        0 3px 12px
+        rgba(0, 0, 0, 0.08);
+
+    transition:
+        transform 0.2s,
+        box-shadow 0.2s;
+}
+
+
+.workspace-card:hover {
+    transform:
+        translateY(-3px);
+
+    box-shadow:
+        0 6px 18px
+        rgba(0, 0, 0, 0.12);
+}
+
+
+/* ========================================
+   WORKSPACE ICON
+======================================== */
+
+.workspace-icon {
+    font-size: 28px;
+
+    margin-bottom: 12px;
+}
+
+
+/* ========================================
+   WORKSPACE NAME
+======================================== */
+
+.workspace-card h3 {
+    margin-top: 0;
+
+    margin-bottom: 10px;
+
+    color: #222;
+
+    font-size: 19px;
+}
+
+
+/* ========================================
+   WORKSPACE DESCRIPTION
+======================================== */
+
+.workspace-card p {
+    color: #666;
+
+    font-size: 14px;
+
+    line-height: 1.5;
+
+    min-height: 42px;
+
+    margin-bottom: 18px;
+}
+
+
+/* ========================================
+   OPEN WORKSPACE BUTTON
+======================================== */
+
+.workspace-card button {
+    width: 100%;
+
+    padding: 10px;
+
+    border: none;
+
+    border-radius: 7px;
+
+    background: #6c5ce7;
+
+    color: white;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s;
+}
+
+
+.workspace-card button:hover {
+    background: #5848d6;
+}
+
+
+/* ========================================
+   EMPTY WORKSPACE
+======================================== */
+
+.empty-workspace {
+    background: #ffffff;
+
+    padding: 40px;
+
+    border-radius: 12px;
+
+    text-align: center;
+
+    color: #777;
+
+    box-shadow:
+        0 3px 12px
+        rgba(0, 0, 0, 0.06);
+}
+
+
+/* ========================================
+   RESPONSIVE
+======================================== */
+
+@media (
+    max-width: 600px
+) {
+
+    .workspace-page {
+        padding: 15px;
+    }
+
+
+    .workspace-header h1 {
+        font-size: 26px;
+    }
+
+
+    .workspace-grid {
+        grid-template-columns: 1fr;
+    }
+
+}

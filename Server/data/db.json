@@ -1,0 +1,102 @@
+{
+  "users": [
+    {
+      "id": "1784788460413",
+      "name": "mahendra",
+      "email": "mahisparks2@gmail.com",
+      "password": "123456",
+      "createdAt": "2026-07-23T06:34:20.413Z"
+    },
+    {
+      "id": "1784808263254",
+      "name": "mahesh babu",
+      "email": "maheshbabu@gmail.com",
+      "password": "123456",
+      "createdAt": "2026-07-23T12:04:23.254Z"
+    },
+    {
+      "id": "1784813769013",
+      "name": "Kris Jenner",
+      "email": "krisjenner@gmail.com",
+      "password": "123456",
+      "createdAt": "2026-07-23T13:36:09.013Z"
+    },
+    {
+      "id": "1784824017599",
+      "name": "narendra",
+      "email": "narendra@gmail.com",
+      "password": "123456",
+      "createdAt": "2026-07-23T16:26:57.599Z"
+    },
+    {
+      "id": "1784831681046",
+      "name": "sai baba",
+      "email": "saibaba@gmail.com",
+      "password": "123456",
+      "createdAt": "2026-07-23T18:34:41.046Z"
+    }
+  ],
+  "workspaces": [
+    {
+      "id": "1784818384313",
+      "name": "collab",
+      "description": "collaboration of work",
+      "ownerId": "1784788460413",
+      "createdAt": "2026-07-23T14:53:04.313Z"
+    },
+    {
+      "id": "1784818808040",
+      "name": "teams",
+      "description": "teams is used to work in teams",
+      "ownerId": "1784788460413",
+      "createdAt": "2026-07-23T15:00:08.040Z"
+    },
+    {
+      "id": "1784823837974",
+      "name": "dashboard",
+      "description": "chart presentation",
+      "ownerId": "1784788460413",
+      "createdAt": "2026-07-23T16:23:57.974Z"
+    },
+    {
+      "id": "1784824066743",
+      "name": "catlog",
+      "description": "adding products",
+      "ownerId": "1784824017599",
+      "createdAt": "2026-07-23T16:27:46.743Z"
+    },
+    {
+      "id": "1784832023111",
+      "name": "varanasi",
+      "description": "varanasi is a project that is being developed by rajamouli for our bob",
+      "ownerId": "1784831681046",
+      "createdAt": "2026-07-23T18:40:23.111Z"
+    }
+  ],
+  "spaces": [],
+  "folders": [],
+  "lists": [],
+  "tasks": [
+    {
+      "id": "1784831334583",
+      "title": "task k",
+      "description": "task kalki",
+      "status": "To Do",
+      "priority": "Medium",
+      "workspaceId": "1784818384313",
+      "ownerId": "",
+      "createdAt": "2026-07-23T18:28:54.583Z"
+    },
+    {
+      "id": "1784832936123",
+      "title": "bob fight",
+      "description": "bob gonna fight",
+      "status": "Completed",
+      "priority": "Medium",
+      "workspaceId": "1784832023111",
+      "ownerId": "",
+      "createdAt": "2026-07-23T18:55:36.123Z"
+    }
+  ],
+  "comments": []
+}
