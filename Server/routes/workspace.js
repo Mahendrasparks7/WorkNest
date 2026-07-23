@@ -9,7 +9,7 @@ const {
 
 } = require(
 
-    "../controllers/workspaceController"
+    "../controllers/workspacecontroller"
 
 );
 
